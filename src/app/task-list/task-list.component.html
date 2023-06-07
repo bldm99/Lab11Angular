@@ -1,0 +1,11 @@
+
+<ul>
+  <li *ngFor="let task of tasks">
+    <input type="checkbox" [(ngModel)]="task.completado" (change)="cambiarEstado(task)">
+    <span>{{ task.nombre }}</span>
+  </li>
+</ul>
+
+
+
+<app-filtros [valores]="tasks"></app-filtros>

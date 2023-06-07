@@ -1,0 +1,58 @@
+
+
+.filtros{
+    /*background: greenyellow;*/
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.filtros button{margin-top: 5px;
+    padding:  8px 8px ;
+    border: none;
+    background: rgb(28, 28, 250);
+    
+}
+
+
+
+
+.filtros .cont-filtros{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.cont-filtros .completed{
+    
+    border: 2px solid blue;
+    width: 40%;
+    padding: 0px 3px;
+    box-sizing: border-box;
+
+}
+
+.cont-filtros .not-completed{
+    border: 2px solid red;
+    width: 40%;
+    padding: 0px 3px;
+    box-sizing: border-box;
+
+}
+
+.completed h3{
+    margin: 0;
+    padding: 0;
+    background: white;
+    text-align: center;
+    background: blue;
+    color: whitesmoke;
+}
+.not-completed h3{
+    margin: 0;
+    padding: 0;
+    background: white;
+    text-align: center;
+    background: red;
+    color: whitesmoke;
+}

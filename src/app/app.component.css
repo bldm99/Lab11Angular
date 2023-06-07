@@ -1,0 +1,30 @@
+
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.principal .add{
+    margin-top: 10px;
+    background: #f7f7f7;
+    box-shadow: 7px 7px 15px rgba(14, 13, 13, 0.425);
+    width: 50%;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.principal .listado{
+    background: #f7f7f7;
+    width: 80%;
+    box-shadow: 7px 7px 15px rgba(14, 13, 13, 0.425);
+    border-radius: 15px;
+    padding: 15px 0px;
+    
+
+}

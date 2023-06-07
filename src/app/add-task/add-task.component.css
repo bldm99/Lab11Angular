@@ -1,0 +1,34 @@
+.frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.frm input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    outline-color: greenyellow;
+    width: 100%;
+    box-sizing: border-box;
+}
+.frm button{ 
+    color: white;
+    padding: 8px 6px;
+    background: rgb(65, 147, 253);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 80%;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.frm button:hover{
+    background: rgb(118, 192, 6);
+    color: azure;
+}

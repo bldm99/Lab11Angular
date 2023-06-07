@@ -1,0 +1,39 @@
+<div class="filtros">
+
+    <div class="titulo">
+        <h2>Lista de todas las Tareas</h2>
+    </div>
+
+    <div class="cont-filtros">
+
+        <div class="completed">
+
+            <h3>Tareas completadas:</h3>
+            <div *ngFor="let tarea of filtrarCompletadas()">
+                <p>{{ tarea.nombre }}</p>
+                <!--<p>{{ tarea.completado }}</p>-->
+            </div>
+
+        </div>
+        <div class="not-completed">
+            <h3>Tareas No completadas:</h3>
+            <div *ngFor="let tarea of filtrarNoCompletadas()">
+                <p>{{ tarea.nombre }}</p>
+                <!--<p>{{ tarea.completado }}</p>-->
+            </div>
+
+        </div>
+
+    </div>
+
+    <button (click)="verx()">Ver todas las Tareas</button>
+
+    <div *ngIf="allTareas" class="all">
+        <h3>Todas las tareas:</h3>
+        <div *ngFor="let tarea of valores">
+            <p>{{ tarea.nombre }}</p>
+            <!--<p>{{ tarea.completado }}</p>-->
+        </div>
+    </div>
+
+</div>
